@@ -15,7 +15,9 @@ git archive \
   --output="$DIST/clear-notifications-macos-v${VERSION}-source.tar.gz" \
   HEAD
 
-shasum -a 256 "$DIST/clear-notifications-macos-v${VERSION}-source.tar.gz" \
-  > "$DIST/SHA256SUMS.txt"
+(
+  cd "$DIST"
+  shasum -a 256 "clear-notifications-macos-v${VERSION}-source.tar.gz" > SHA256SUMS.txt
+)
 
 print -r -- "$DIST"
