@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+build/
+dist/
+assets/ClearNotifications.icns
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+.env
+.env.*
