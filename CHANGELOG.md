@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2 — 2026-07-18
+
+- Run continuous integration on a macOS image with the required Swift 6 toolchain.
+
 ## 0.1.1 — 2026-07-18
 
 - Made the release privacy scanner portable to clean GitHub macOS runners.
