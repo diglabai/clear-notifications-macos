@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.1.0 - 2026-07-18
+## 0.1.1 — 2026-07-18
+
+- Made the release privacy scanner portable to clean GitHub macOS runners.
+- Kept the app behavior and privacy boundary unchanged.
+
+## 0.1.0 — 2026-07-18
 
 - Initial public source beta.
 - Added modern notification-card and legacy close-button support.
