@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 — 2026-07-18
+
+- Updated CI to the pinned Node 24 checkout action after a clean Swift 6 run.
+
 ## 0.1.2 — 2026-07-18
 
 - Run continuous integration on a macOS image with the required Swift 6 toolchain.

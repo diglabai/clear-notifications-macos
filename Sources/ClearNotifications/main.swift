@@ -242,7 +242,7 @@ private enum ClearNotificationsApp {
         let options = Options(arguments: CommandLine.arguments)
 
         if options.showVersion {
-            print("Clear Notifications 0.1.2")
+            print("Clear Notifications 0.1.3")
             exit(ExitCode.success.rawValue)
         }
 
